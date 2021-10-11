@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Font1';
+    src: url('./TinkoffSans.ttf');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Font2';
+    src: url('./PFHighwaySansPro-Light.ttf');
+    font-weight: 400 !important;
+
+}

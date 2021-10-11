@@ -1,0 +1,95 @@
+/* Верхний отступ */
+.mt_0{margin-top:0px !important}
+.mt_1{margin-top:8px !important}
+.mt_2{margin-top:16px !important}
+.mt_3{margin-top:25px !important}
+.mt_4{margin-top:32px !important}
+.mt_5{margin-top:40px !important}
+.mt_6{margin-top:56px !important }
+.mt_7{margin-top:88px !important}
+.mt_8{margin-top:128px !important}
+.mt_9{margin-top:193px !important}
+
+
+/* Нижний оступ */
+.mb_0{margin-bottom:0px !important}
+.mb_1{margin-bottom:8px !important}
+.mb_2{margin-bottom:16px !important}
+.mb_3{margin-bottom:25px !important}
+.mb_4{margin-bottom:32px !important}
+.mb_5{margin-bottom:40px !important}
+.mb_6{margin-bottom:56px !important}
+.mb_7{margin-bottom:88px !important}
+.mb_8{margin-bottom:128px !important}
+.mb_9{margin-bottom:193px !important}
+
+/* правый */
+.mr_0{margin-right:0px !important}
+.mr_1{margin-right:8px !important}
+.mr_2{margin-right:16px !important}
+.mr_3{margin-right:25px !important}
+.mr_4{margin-right:32px !important}
+.mr_5{margin-right:40px !important}
+.mr_6{margin-right:56px !important}
+.mr_7{margin-right:88px !important}
+.mr_8{margin-right:128px !important}
+.mr_9{margin-right:193px !important}
+
+/* левый */
+.ml_0{margin-left:0px !important}
+.ml_1{margin-left:8px !important}
+.ml_2{margin-left:16px !important}
+.ml_3{margin-left:25px !important}
+.ml_4{margin-left:32px !important}
+.ml_5{margin-left:40px !important}
+.ml_6{margin-left:56px !important}
+.ml_7{margin-left:88px !important}
+.ml_8{margin-left:128px !important}
+.ml_9{margin-left:193px !important}
+
+
+.padding_8{
+    padding: 0px 8px;
+}
+
+.m_0{
+    margin: 0px !important;
+}
+
+.margintopcontent{
+    margin-top: 70px;
+}
+
+@media (max-width: 575.98px) {
+    .indent_top{height: 0px;}
+    .indent_bottom{height: 80px;}
+    .margintopcontent{margin-top: 15px ;}
+}
+
+/* // Малые девайсы («ландшафтные», >= 575px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .margintopcontent{margin-top: 15px ;}
+
+}
+
+/* // Средние девайсы («таблетки», >= 768px)  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .indent_top{height: 0px;}
+    .indent_bottom{height: 80px;}
+    .margintopcontent{margin-top: 70px ;}
+
+}
+
+/* // Большие девайсы (большие десктопы, >= 992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .indent_top{height: 80px;}
+    .indent_bottom{height: 80px;}
+    .margintopcontent{margin-top: 70px ;}
+}
+
+/* // Большие девайсы (большие десктопы, >= 1200px) */
+@media (min-width: 1200px) {
+    .indent_top{height: 80px;}
+    .indent_bottom{height: 60px;}
+    .margintopcontent{margin-top: 70px ;}
+}
