@@ -1,4 +1,3 @@
-import React from 'react';
 import styled, {createGlobalStyle} from 'styled-components';
 import {set_margin, set_offset} from "./settings/settings";
 

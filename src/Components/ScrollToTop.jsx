@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import {ScrollToTheTop} from "../CSS/CSS";
 
 const ScrollToTop = (props) => {
@@ -18,7 +18,14 @@ const ScrollToTop = (props) => {
             behavior: 'smooth'
         });
     };
-    window.addEventListener('scroll', toggleVisible);
+
+
+    useEffect(() => {
+        window.addEventListener('scroll', toggleVisible);
+        return function () {
+            window.removeEventListener('scroll', toggleVisible);
+        }
+    }, [])
 
     return (
         <ScrollToTheTop justify-content={"end"} onClick={scrollToTop}
